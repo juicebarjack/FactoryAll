@@ -1,0 +1,23 @@
+Test cases
+Negative result, "Please enter an integer" message should appear if box is empty
+Box should only accept intergers, error if another character is used should come up
+
+Test Case for functionality test
+Test Designed By Melvin Herrera
+Test Designed Date: 3/24/2022
+Test Executed By Melvin Herrera
+Test Execution Date: 3/24/2022
+Test Title/Name: Verify interger calculator calculates a factorial accurately
+Test Summary/Description: This program will calculate the factorial of any interger given. Factorial of a given number should not be negative numbers, decimal point numbers, alpha characters, special characters, and if it is a function, it takes only one parameter.
+Pre-conditions: Valid interger number
+Dependencies: NA 
+Test Steps: 
+1. Use factorial number in input box 
+2. Click calculate
+3. Result should be displayed below
+
+Test Data: Any interger number (Used 5)
+Expected Result: Result of the calculator is displayed below
+Actual result: Result is shown successfully and properly formatted
+Status: Passed
+Automation? Yes, atached Selenium file named FactoriAll.side
