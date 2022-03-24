@@ -1,0 +1,74 @@
+{
+  "id": "51db9ec9-57fc-42dc-9730-cf851f2337c4",
+  "version": "2.0",
+  "name": "FactoriAll",
+  "url": "http://qainterview.pythonanywhere.com",
+  "tests": [{
+    "id": "f1f155e5-3b67-4200-893f-d757b52b231d",
+    "name": "Untitled",
+    "commands": [{
+      "id": "8562bc06-b329-4653-a815-f0ea0d301d8d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "879398ea-1902-4cf5-97ac-67f574322179",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1047",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc40d933-471d-4c5c-9fc7-d319e1686ddb",
+      "comment": "",
+      "command": "click",
+      "target": "id=number",
+      "targets": [
+        ["id=number", "id"],
+        ["name=number", "name"],
+        ["css=#number", "css:finder"],
+        ["xpath=//input[@id='number']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a53d2ea-ca2b-44c3-85e2-222464369e95",
+      "comment": "",
+      "command": "type",
+      "target": "id=number",
+      "targets": [
+        ["id=number", "id"],
+        ["name=number", "name"],
+        ["css=#number", "css:finder"],
+        ["xpath=//input[@id='number']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "8ef89e8e-5e7a-4084-acf7-2a30ab4fd0ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=getFactorial",
+      "targets": [
+        ["id=getFactorial", "id"],
+        ["css=#getFactorial", "css:finder"],
+        ["xpath=//button[@id='getFactorial']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calculate!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6ff25251-ac55-40ef-9eb9-4cd3492c481d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f1f155e5-3b67-4200-893f-d757b52b231d"]
+  }],
+  "urls": ["http://qainterview.pythonanywhere.com/"],
+  "plugins": []
+}
