@@ -1,0 +1,16 @@
+Bugs
+Box should not accept + sign
+Title of page has two Ls written as "Factoriall" (Good brand name though)
+
+Bug report
+ID/name: Input box should not accept + sign
+Description/summary: The factorial of a number will be calculated with only the number as an input, no other type of value should be allowed
+Environment: QA
+Console logs: NA
+Source URL:http://qainterview.pythonanywhere.com/
+Visual proof: Attached screenshot of result with test data used
+Steps to reproduce:
+1. Use factorial number in input box with leading + sign 
+2. Click calculate
+3. Result should be displayed below as shown in screenshot
+Expected results: Calculator should throw an error not allowing characters other than an integer
